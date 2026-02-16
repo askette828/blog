@@ -137,6 +137,19 @@ main {
     margin: 0 auto;
 }
 
+footer {
+    margin-top: 60px;
+    padding: 20px 0;
+    border-top: 1px solid var(--color-gold);
+    text-align: center;
+}
+
+footer p {
+    color: var(--color-dark);
+    font-size: 1em;
+    margin: 0;
+}
+
 @media (max-width: 768px) {
     nav ul {
         grid-template-columns: repeat(3, auto);
