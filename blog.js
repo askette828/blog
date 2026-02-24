@@ -39,15 +39,14 @@ function createArticleHTML(article) {
         <article class="book-post">
             <div class="post-meta">
                 <time datetime="${article.date}">${article.date}</time>
-                <div class="age-range">${article.ages}</div>
-                <div class="genre">${article.genre}</div>
-                <div class="rating">${article.stars}</div>
+                <span class="age-range">${article.ages}</span>
+                <span class="genre">${article.genre}</span>
+                <span class="rating">${article.stars}</span>
             </div>
-            
             <div class="post-content">
                 <h2>${article.title}</h2>
                 <img src="${article.imgSrc}" alt="${article.imgAlt}">
-                <p>${article.description} <a href="#" class="read-more">Read More...</a></p>
+                <p>${article.description}</p>
             </div>
         </article>
     `;
