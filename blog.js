@@ -45,7 +45,7 @@ function createArticleHTML(article) {
             </div>
             <div class="post-content">
                 <h2>${article.title}</h2>
-                <img src="${article.imgSrc}" alt="${article.imgAlt}">
+                <img src="${article.imgSrc}" alt="${article.imgAlt}" width="160" height="240" loading="lazy">
                 <p>${article.description}</p>
             </div>
         </article>
